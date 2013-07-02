@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8CA60517832384001C50DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CA60417832384001C50DA /* UIKit.framework */; };
+		FB8CA60717832384001C50DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CA60617832384001C50DA /* Foundation.framework */; };
+		FB8CA60917832384001C50DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CA60817832384001C50DA /* CoreGraphics.framework */; };
+		FB8CA60B17832384001C50DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CA60A17832384001C50DA /* CoreData.framework */; };
+		FB8CA61117832384001C50DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA60F17832384001C50DA /* InfoPlist.strings */; };
+		FB8CA61317832384001C50DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CA61217832384001C50DA /* main.m */; };
+		FB8CA61717832384001C50DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CA61617832384001C50DA /* AppDelegate.m */; };
+		FB8CA61917832384001C50DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA61817832384001C50DA /* Default.png */; };
+		FB8CA61B17832384001C50DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA61A17832384001C50DA /* Default@2x.png */; };
+		FB8CA61D17832384001C50DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA61C17832384001C50DA /* Default-568h@2x.png */; };
+		FB8CA62017832384001C50DA /* lomedronix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB8CA61E17832384001C50DA /* lomedronix.xcdatamodeld */; };
+		FB8CA62817832384001C50DA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CA62717832384001C50DA /* SenTestingKit.framework */; };
+		FB8CA62917832384001C50DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CA60417832384001C50DA /* UIKit.framework */; };
+		FB8CA62A17832384001C50DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CA60617832384001C50DA /* Foundation.framework */; };
+		FB8CA62B17832384001C50DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CA60A17832384001C50DA /* CoreData.framework */; };
+		FB8CA63317832384001C50DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA63117832384001C50DA /* InfoPlist.strings */; };
+		FB8CA63617832384001C50DA /* lomedronixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CA63517832384001C50DA /* lomedronixTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB8CA62C17832384001C50DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8CA5F917832384001C50DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8CA60017832384001C50DA;
+			remoteInfo = lomedronix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB8CA60117832384001C50DA /* lomedronix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lomedronix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8CA60417832384001C50DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB8CA60617832384001C50DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB8CA60817832384001C50DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB8CA60A17832384001C50DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FB8CA60E17832384001C50DA /* lomedronix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lomedronix-Info.plist"; sourceTree = "<group>"; };
+		FB8CA61017832384001C50DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB8CA61217832384001C50DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB8CA61417832384001C50DA /* lomedronix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lomedronix-Prefix.pch"; sourceTree = "<group>"; };
+		FB8CA61517832384001C50DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB8CA61617832384001C50DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB8CA61817832384001C50DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FB8CA61A17832384001C50DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FB8CA61C17832384001C50DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FB8CA61F17832384001C50DA /* lomedronix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lomedronix.xcdatamodel; sourceTree = "<group>"; };
+		FB8CA62617832384001C50DA /* lomedronixTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lomedronixTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8CA62717832384001C50DA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FB8CA63017832384001C50DA /* lomedronixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lomedronixTests-Info.plist"; sourceTree = "<group>"; };
+		FB8CA63217832384001C50DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB8CA63417832384001C50DA /* lomedronixTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lomedronixTests.h; sourceTree = "<group>"; };
+		FB8CA63517832384001C50DA /* lomedronixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lomedronixTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8CA5FE17832384001C50DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CA60517832384001C50DA /* UIKit.framework in Frameworks */,
+				FB8CA60717832384001C50DA /* Foundation.framework in Frameworks */,
+				FB8CA60917832384001C50DA /* CoreGraphics.framework in Frameworks */,
+				FB8CA60B17832384001C50DA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8CA62217832384001C50DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CA62817832384001C50DA /* SenTestingKit.framework in Frameworks */,
+				FB8CA62917832384001C50DA /* UIKit.framework in Frameworks */,
+				FB8CA62A17832384001C50DA /* Foundation.framework in Frameworks */,
+				FB8CA62B17832384001C50DA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8CA5F817832384001C50DA = {
+			isa = PBXGroup;
+			children = (
+				FB8CA60C17832384001C50DA /* lomedronix */,
+				FB8CA62E17832384001C50DA /* lomedronixTests */,
+				FB8CA60317832384001C50DA /* Frameworks */,
+				FB8CA60217832384001C50DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8CA60217832384001C50DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA60117832384001C50DA /* lomedronix.app */,
+				FB8CA62617832384001C50DA /* lomedronixTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8CA60317832384001C50DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA60417832384001C50DA /* UIKit.framework */,
+				FB8CA60617832384001C50DA /* Foundation.framework */,
+				FB8CA60817832384001C50DA /* CoreGraphics.framework */,
+				FB8CA60A17832384001C50DA /* CoreData.framework */,
+				FB8CA62717832384001C50DA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB8CA60C17832384001C50DA /* lomedronix */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA61517832384001C50DA /* AppDelegate.h */,
+				FB8CA61617832384001C50DA /* AppDelegate.m */,
+				FB8CA61E17832384001C50DA /* lomedronix.xcdatamodeld */,
+				FB8CA60D17832384001C50DA /* Supporting Files */,
+			);
+			path = lomedronix;
+			sourceTree = "<group>";
+		};
+		FB8CA60D17832384001C50DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA60E17832384001C50DA /* lomedronix-Info.plist */,
+				FB8CA60F17832384001C50DA /* InfoPlist.strings */,
+				FB8CA61217832384001C50DA /* main.m */,
+				FB8CA61417832384001C50DA /* lomedronix-Prefix.pch */,
+				FB8CA61817832384001C50DA /* Default.png */,
+				FB8CA61A17832384001C50DA /* Default@2x.png */,
+				FB8CA61C17832384001C50DA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB8CA62E17832384001C50DA /* lomedronixTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA63417832384001C50DA /* lomedronixTests.h */,
+				FB8CA63517832384001C50DA /* lomedronixTests.m */,
+				FB8CA62F17832384001C50DA /* Supporting Files */,
+			);
+			path = lomedronixTests;
+			sourceTree = "<group>";
+		};
+		FB8CA62F17832384001C50DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA63017832384001C50DA /* lomedronixTests-Info.plist */,
+				FB8CA63117832384001C50DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8CA60017832384001C50DA /* lomedronix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8CA63917832384001C50DA /* Build configuration list for PBXNativeTarget "lomedronix" */;
+			buildPhases = (
+				FB8CA5FD17832384001C50DA /* Sources */,
+				FB8CA5FE17832384001C50DA /* Frameworks */,
+				FB8CA5FF17832384001C50DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lomedronix;
+			productName = lomedronix;
+			productReference = FB8CA60117832384001C50DA /* lomedronix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8CA62517832384001C50DA /* lomedronixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8CA63C17832384001C50DA /* Build configuration list for PBXNativeTarget "lomedronixTests" */;
+			buildPhases = (
+				FB8CA62117832384001C50DA /* Sources */,
+				FB8CA62217832384001C50DA /* Frameworks */,
+				FB8CA62317832384001C50DA /* Resources */,
+				FB8CA62417832384001C50DA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8CA62D17832384001C50DA /* PBXTargetDependency */,
+			);
+			name = lomedronixTests;
+			productName = lomedronixTests;
+			productReference = FB8CA62617832384001C50DA /* lomedronixTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8CA5F917832384001C50DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = OnixMedia;
+			};
+			buildConfigurationList = FB8CA5FC17832384001C50DA /* Build configuration list for PBXProject "lomedronix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB8CA5F817832384001C50DA;
+			productRefGroup = FB8CA60217832384001C50DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8CA60017832384001C50DA /* lomedronix */,
+				FB8CA62517832384001C50DA /* lomedronixTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8CA5FF17832384001C50DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CA61117832384001C50DA /* InfoPlist.strings in Resources */,
+				FB8CA61917832384001C50DA /* Default.png in Resources */,
+				FB8CA61B17832384001C50DA /* Default@2x.png in Resources */,
+				FB8CA61D17832384001C50DA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8CA62317832384001C50DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CA63317832384001C50DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FB8CA62417832384001C50DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8CA5FD17832384001C50DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CA61317832384001C50DA /* main.m in Sources */,
+				FB8CA61717832384001C50DA /* AppDelegate.m in Sources */,
+				FB8CA62017832384001C50DA /* lomedronix.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8CA62117832384001C50DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CA63617832384001C50DA /* lomedronixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB8CA62D17832384001C50DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8CA60017832384001C50DA /* lomedronix */;
+			targetProxy = FB8CA62C17832384001C50DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB8CA60F17832384001C50DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8CA61017832384001C50DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB8CA63117832384001C50DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8CA63217832384001C50DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB8CA63717832384001C50DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB8CA63817832384001C50DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8CA63A17832384001C50DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lomedronix/lomedronix-Prefix.pch";
+				INFOPLIST_FILE = "lomedronix/lomedronix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB8CA63B17832384001C50DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lomedronix/lomedronix-Prefix.pch";
+				INFOPLIST_FILE = "lomedronix/lomedronix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB8CA63D17832384001C50DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lomedronix.app/lomedronix";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lomedronix/lomedronix-Prefix.pch";
+				INFOPLIST_FILE = "lomedronixTests/lomedronixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FB8CA63E17832384001C50DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lomedronix.app/lomedronix";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lomedronix/lomedronix-Prefix.pch";
+				INFOPLIST_FILE = "lomedronixTests/lomedronixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8CA5FC17832384001C50DA /* Build configuration list for PBXProject "lomedronix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8CA63717832384001C50DA /* Debug */,
+				FB8CA63817832384001C50DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8CA63917832384001C50DA /* Build configuration list for PBXNativeTarget "lomedronix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8CA63A17832384001C50DA /* Debug */,
+				FB8CA63B17832384001C50DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB8CA63C17832384001C50DA /* Build configuration list for PBXNativeTarget "lomedronixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8CA63D17832384001C50DA /* Debug */,
+				FB8CA63E17832384001C50DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB8CA61E17832384001C50DA /* lomedronix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB8CA61F17832384001C50DA /* lomedronix.xcdatamodel */,
+			);
+			currentVersion = FB8CA61F17832384001C50DA /* lomedronix.xcdatamodel */;
+			path = lomedronix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB8CA5F917832384001C50DA /* Project object */;
+}
